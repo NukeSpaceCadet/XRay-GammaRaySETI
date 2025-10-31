@@ -110,7 +110,7 @@ def compute_kl_divergence(pk_column, qk_column):
 ###############################################################################
 
 # Generate spectra for actual signal
-signal, length, time_arr = get_binary_file("dlc2.jpg", pulse_duration)
+signal, length, time_arr = get_binary_file("halloween.jpg", pulse_duration)
 spec_arr,time,ratio = signal_maker(signal, detector_interval, signal_photon_energy, "signal")
 stacked_signal_specs = np.vstack(spec_arr)
 
