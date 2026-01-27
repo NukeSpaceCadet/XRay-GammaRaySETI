@@ -31,7 +31,7 @@ import random
 pulse_duration = 1e-13 # seconds
 detector_interval = 1e-8 # cycle time for detector (rise-time and dead-time), seconds
 num_channels = 2**12 # 4096 channels
-signal_photon_energy = 414 # gamma-ray energy in keV
+signal_photon_energy = 100 # gamma-ray energy in keV
 
 ###############################################################################
 # This function generates a sequence of spectra based on the time-dependent pulse-train
